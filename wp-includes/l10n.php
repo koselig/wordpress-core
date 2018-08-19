@@ -198,7 +198,7 @@ function translate_with_gettext_context( $text, $context, $domain = 'default' ) 
  *                       Default 'default'.
  * @return string Translated text.
  */
-function __( $text, $domain = 'default' ) {
+function __wp( $text, $domain = 'default' ) {
 	return translate( $text, $domain );
 }
 
